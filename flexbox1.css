@@ -1,0 +1,64 @@
+.box{
+  display: fle;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+ }
+ .navbar{
+  display: flex;
+  flex-direction: column;
+ }
+.welcome{
+  text-align: center;
+  color:green;
+ }
+nav a{
+  text-decoration:none; 
+  color:black ;
+  margin:10px;
+ }
+ nav a hover{
+  color:yellow;
+  background-color: black;
+ }
+img{
+  width: 80px;
+  height:80px;
+ }
+logo{
+  width: 10%;
+}
+body{
+  margin: 10px;
+  border:1px solid black;
+  width: 100%;
+  height: 100%;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 10px;
+}
+.ab,.cd {
+  display: flex;
+  flex-direction: column;
+}
+.box1{
+  margin: 50px;
+  padding: 20px 20px;
+}
+nav{
+  border: 1px solid black;
+  padding: 10px;
+}
+.box2{
+  margin: 10px;
+  font-size:20px;
+  padding: 20px;
+}
+footer{
+  text-align: center;
+}
+

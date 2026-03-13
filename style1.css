@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f4f6f9;
+}
+
+/* HEADER */
+header{
+  background:#2c3e50;
+  padding:15px 20px;
+  color:white;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.logo img{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  border:3px solid #3498db;
+}
+
+.logo h1{
+  font-size:22px;
+}
+
+/* NAVIGATION */
+.navigation{
+  background:#111;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:15px;
+}
+
+.navigation a{
+  text-decoration:none;
+  color:white;
+  background:#ff6600;
+  padding:10px 20px;
+  border-radius:25px;
+  transition:0.3s;
+}
+
+.navigation a:hover{
+  background:#e05500;
+  transform:scale(1.05);
+}
+
+/* SECTION PRODUITS */
+.reniny{
+  margin-top:40px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+}
+
+.produits{
+  display:flex;
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  min-width:85%;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.2);
+  scroll-snap-align:center;
+  text-align:center;
+  padding-bottom:20px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.03);
+}
+
+.card img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:15px 15px 0 0;
+}
+
+.card button{
+  margin-top:15px;
+  padding:10px 25px;
+  border:none;
+  background:#28a745;
+  color:white;
+  font-weight:bold;
+  border-radius:25px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.card button:hover{
+  background:#218838;
+  transform:scale(1.1);
+}
+
+/* RESPONSIVE */
+@media(min-width:768px){
+  .card{
+    min-width:45%;
+  }
+}
+
+@media(min-width:1024px){
+  .card{
+    min-width:30%;
+  }
+}

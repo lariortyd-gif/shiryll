@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout avec Cadre</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Cadre lehibe */
+    .container {
+      width: 90%;
+      margin: 20px auto;
+      border: 4px solid black;
+      padding: 20px;
+    }
+
+    .row {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      border: 3px solid black;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Ligne 1 -->
+    <div class="row">
+      <div class="box">A</div>
+      <div class="box">B</div>
+    </div>
+
+    <!-- Ligne 2 -->
+    <div class="row">
+      <div class="box">G</div>
+      <div class="box">H</div>
+    </div>
+
+    <!-- Ligne 3 -->
+    <div class="row">
+      <div class="box">I</div>
+      <div class="box">J</div>
+    </div>
+
+    <!-- Ligne 4 -->
+    <div class="row">
+      <div class="box">K</div>
+      <div class="box
